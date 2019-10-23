@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+
+    <!--Titel-->
+    <h1>
+    	<img class="Menuplaatje" src="C:\Users\Jamie\OneDrive\Desktop\Test Project\logo.png" height="100" width="100">
+      Oefenen assessment
+    </h1>
+
+    <!--Menu-->
+    <div class="Menu">
+      <a href="C:\Users\Jamie\OneDrive\Desktop\Test Project\test-project\index.html">Home</a>
+      <a href="C:\Users\Jamie\OneDrive\Desktop\Test Project\test-project\cijferreeksen.html" title="Oefenen met cijferreeksen">Cijferreeksen</a>
+      <a href="C:\Users\Jamie\OneDrive\Desktop\Test Project\test-project\figuurreeksen.html" title="Oefenen met figuurreeksen">Figuurreeksen</a>
+      <a href="C:\Users\Jamie\OneDrive\Desktop\Test Project\test-project\redactiesommen.html" title="Oefenen met redactiesommen">Redactiesommen</a>
+    </div>
+
+    <div class="Hometext">
+      <h2>Oefenen met cijferreeksen.</h2><br>
+      Bij elke vraag krijg je 15 seconden de tijd om te antwoorden.
+      Als je te laat bent met een antwoord invullen, ga je automatisch door
+      naar de volgende vraag en wordt het als een fout antwoord gerekend.
+      <br>
+      <br>
+      Als je alle vragen hebt gehad, zie je het percentage correcte antwoorden
+      die je gegeven hebt. Je kunt ervoor kiezen om de uitleg bij de vragen in
+      te zien, zodat je weet waarom het antwoord goed of fout was. Het is aan te
+      raden dit te doen, zodat je meer inzicht krijgt in hoe je bepaalde vragen
+      kunt oplossen.
+    </div>
+
+    <div id="start"> Start quiz! </div>
+    <div id="quiz" style = "display: none;" >
+      <div id="qImage"><img src="."></div>
+      <div id="question"> <p> Question </p> </div>
+        <div id="timer">
+          <div id="counter"> 6 </div>
+          <div id="btimeGauge"> </div>
+          <div id="timeGauge"> </div>
+        </div>
+        <div id="choices">
+          <div class="choice" id="a" onclick="checkAnswer('a')">A</div>
+          <div class="choice" id="b" onclick="checkAnswer('b')">B</div>
+          <div class="choice" id="c" onclick="checkAnswer('c')">C</div>
+          <div class="choice" id="d" onclick="checkAnswer('d')">D</div>
+        </div>
+        <div id="progress"> <div class="prog"></div>
+        </div>
+      </div>
+    <div id="scoreContainer" style = "display: none;" >
+      <img src="."><p>50%</p>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
