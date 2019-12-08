@@ -1,0 +1,48 @@
+/*Body style*/
+body {
+  background-color: rgb(207, 198, 217, 0.4);
+}
+
+/*Menu style*/
+.Menu {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/*Link style - menu*/
+a:link {
+  color: rgb(83, 8, 106);
+}
+
+/*Hover over link style - menu*/
+a:hover {
+  color: black;
+}
+
+/*Menu*/
+h1 {
+  text-align: center;
+  color: black;
+  font: arial;
+  font-size: 2.8em;
+  margin: 25px;
+  padding: 30px;
+}
+
+/*Ondertitel van pagina*/
+p {
+  background-color: #f1f1f1;
+  text-align: center;
+  color: rgb(83, 8, 106);
+  font: arial;
+  font-size: 1.8em;
+}
+
+/*Inhoud tekst op pagina*/
+.Hometext {
+  margin: 40px;
+  padding: 40px;
+  background-color: #f1f1f1;
+
+}
